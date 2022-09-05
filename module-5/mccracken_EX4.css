@@ -37,6 +37,7 @@ figcaption {
 
 .gallery_item {
     border: solid;
+    color: blue;
     padding: 5px;
 }
 

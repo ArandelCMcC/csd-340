@@ -1,1 +1,43 @@
+h1 {
+    text-align: center;
+}
 
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+h1, h3, figure {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(70, 119, 37);
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+.gallery_item {
+    border: solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#bottom {
+    float: right;
+}
